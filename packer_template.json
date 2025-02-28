@@ -1,0 +1,23 @@
+{
+    "builders": [
+      {
+        "type": "amazon-ebs",
+        "ami_name": "my-custom-ami-{{timestamp}}",
+        "instance_type": "t2.micro",
+        "region": "us-east-1",
+        "source_ami": "ami-ami-04b4f1a9cf54c11d0",  
+        "ssh_username": "ec2-user"
+      }
+    ],
+    "provisioners": [
+      {
+        "type": "shell",
+        "inline": [
+          "sudo yum update -y",
+          "sudo yum install -y nginx",
+          "sudo systemctl enable nginx",
+          "sudo systemctl start nginx"
+        ]
+      }
+    ]
+  }
