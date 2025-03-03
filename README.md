@@ -1,3 +1,10 @@
+confirmatioon of packer installation
+![Screenshot (35)](https://github.com/user-attachments/assets/5d3708c4-cab0-494f-9272-2b93adbe2ece)
+
+initializing terraform init
+![Screenshot (36)](https://github.com/user-attachments/assets/a438719e-dc67-4473-9ce7-1dabf9880ada)
+
+
 THE MAIN.TF FILE
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/ebde88c3-e82a-41a5-8b83-d48879874ead)
